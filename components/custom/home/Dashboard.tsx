@@ -3,7 +3,7 @@ import SignOut from "@/components/custom/auth/SignOut";
 
 export default function Dashboard() {
   return (
-    <div className="flex flex-col items-center justify-center w-[40%] p-4 rounded-xl bg-slate-900">
+    <div className="flex flex-col items-center justify-center w-[90%] md:w-[40%] p-4 rounded-xl bg-slate-900">
       <h1 className="text-center text-4xl font-thin uppercase tracking-wide">
         dashboard
       </h1>

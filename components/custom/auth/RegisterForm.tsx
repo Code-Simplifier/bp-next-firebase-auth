@@ -82,7 +82,7 @@ export default function RegisterForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-4 w-[40%]"
+        className="space-y-4 w-[90%] md:w-[40%]"
       >
         <h1 className="text-center text-4xl font-thin uppercase tracking-wide">
           register
@@ -129,7 +129,7 @@ export default function RegisterForm() {
           <div className="h-[1px] w-[42%] bg-zinc-300" />
           <Link
             href={"/"}
-            className="text-zinc-500 hover:underline underline-offset-4"
+            className="text-zinc-500 text-center hover:underline underline-offset-4"
           >
             or login
           </Link>
